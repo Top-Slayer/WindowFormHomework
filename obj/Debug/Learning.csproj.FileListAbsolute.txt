@@ -1,0 +1,36 @@
+C:\Users\TOP\Desktop\WindowForm\Learning\bin\Debug\Learning.exe.config
+C:\Users\TOP\Desktop\WindowForm\Learning\bin\Debug\Learning.exe
+C:\Users\TOP\Desktop\WindowForm\Learning\bin\Debug\Learning.pdb
+C:\Users\TOP\Desktop\WindowForm\Learning\obj\Debug\Learning.csproj.AssemblyReference.cache
+C:\Users\TOP\Desktop\WindowForm\Learning\obj\Debug\Learning.Form1.resources
+C:\Users\TOP\Desktop\WindowForm\Learning\obj\Debug\Learning.Properties.Resources.resources
+C:\Users\TOP\Desktop\WindowForm\Learning\obj\Debug\Learning.csproj.GenerateResource.cache
+C:\Users\TOP\Desktop\WindowForm\Learning\obj\Debug\Learning.csproj.CoreCompileInputs.cache
+C:\Users\TOP\Desktop\WindowForm\Learning\obj\Debug\Learning.exe
+C:\Users\TOP\Desktop\WindowForm\Learning\obj\Debug\Learning.pdb
+C:\Users\TOP\Desktop\WindowForm\Learning\obj\Debug\Learning.Form2.resources
+C:\Users\TOP\Desktop\WindowForm\Learning\obj\Debug\Learning.Form3.resources
+C:\Users\TOP\Desktop\WindowForm\Learning\obj\Debug\Learning.Calculater.resources
+C:\Users\TOP\Desktop\WindowForm\Learning\obj\Debug\Learning.frmLogin.resources
+C:\Users\TOP\Desktop\WindowForm\Learning\obj\Debug\Learning.frmMainMenu.resources
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\bin\Debug\Learning.exe.config
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\bin\Debug\Learning.exe
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\bin\Debug\Learning.pdb
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.csproj.AssemblyReference.cache
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.Calculater.resources
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.Form1.resources
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.Form2.resources
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.Form3.resources
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.frmLogin.resources
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.frmMainMenu.resources
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.Properties.Resources.resources
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.csproj.GenerateResource.cache
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.csproj.CoreCompileInputs.cache
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.exe
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.pdb
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\bin\Debug\Database1.mdf
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\bin\Debug\Database1_log.ldf
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.frmSupplier.resources
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.frmProductType.resources
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.frmCustomer.resources
+C:\Users\TOP\Desktop\Learning NUOL\WindowForm\Learning\obj\Debug\Learning.frmProduct.resources
