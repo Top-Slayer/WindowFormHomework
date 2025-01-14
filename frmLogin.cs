@@ -7,11 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Learning
 {
     public partial class frmLogin : Form
     {
+        string strConnect = @"Data Source=DESKTOP-4IQFEGJ;Initial Catalog=miniDB;Integrated Security=True;";
+        SqlConnection conn = null;
+        SqlCommand cmd = null;
+        SqlDataReader reader = null;
+
         public frmLogin()
         {
             InitializeComponent();
@@ -26,8 +32,16 @@ namespace Learning
         {
             string username = txtUserName.Text;
             string password = txtPwd.Text;
+            string sql = "SELECT * FROM tbusers WHERE userName='"+ username +"' AND password_code='"+ password +"'";
+            conn  = new SqlConnection(strConnect);
+            conn.Open();
+            cmd = new SqlCommand(sql, conn);
+            reader = cmd.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(reader);
+            conn.Close();
 
-            if (username == "admin" && password == "admin")
+            if (dt.Rows.Count != 0)
             {
                 MessageBox.Show("ຍິນດີຕ້ອນຮັບທ່ານເຂົ້າສູ່ລະບົບ");
                 frmMainMenu frm = new frmMainMenu();

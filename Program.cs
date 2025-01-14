@@ -22,7 +22,8 @@ namespace Learning
             // Application.Run(new Calculater());
             // Application.Run(new frmLogin());
             // Application.Run(new frmCustomer());
-            Application.Run(new frmProduct());
+            // Application.Run(new frmProduct());
+            Application.Run(new frmSupplier());
         }
     }
 }
