@@ -21,20 +21,17 @@ namespace Learning
         public frmSupplier()
         {
             InitializeComponent();
+            showData();
         }
         private void frmSupplier_Load(object sender, EventArgs e)
         {
-            sqlCon = new SqlConnection(strConn);
-            sqlCon.Open();
-            sqlCmd = new SqlCommand("SELECT * FROM tbSuppliers", sqlCon);
-            SqlDataReader sqlDr = sqlCmd.ExecuteReader();
-            DataTable dtPT = new DataTable();
-            dtPT.Load(sqlDr);
-            showData();
+
         }
 
         private void showData()
         {
+            sqlCon = new SqlConnection(strConn);
+            sqlCon.Open();
             sqlCmd = new SqlCommand("SELECT * FROM tbSuppliers", sqlCon);
             SqlDataReader sqlDr = sqlCmd.ExecuteReader();
             DataTable dt = new DataTable();
@@ -154,7 +151,7 @@ namespace Learning
             if (MessageBox.Show("ທ່ານຕ້ອງການລົບຂໍ້ມູນນີ້ຫຼືບໍ່?", "Question",
                MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                string sqlstr = "Delete from tbSuppliers where supplier_id='" + pid + "'";
+                string sqlstr = "DELETE FROM tbSuppliers WHERE supplier_id='" + pid + "'";
                 sqlCmd = new SqlCommand(sqlstr, sqlCon);
                 sqlCmd.ExecuteNonQuery();
                 showData();
