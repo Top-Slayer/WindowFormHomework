@@ -20,7 +20,7 @@ namespace Learning
             // Application.Run(new Form2());
             // Application.Run(new Form3());
             // Application.Run(new Calculater());
-            Application.Run(new frmLogin());
+            Application.Run(new frmrptProductViewer());
             // Application.Run(new frmCustomer());
             // Application.Run(new frmProduct());
             // Application.Run(new frmSupplier());

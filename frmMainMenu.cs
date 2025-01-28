@@ -52,5 +52,13 @@ namespace Learning
             frm.WindowState = FormWindowState.Maximized;
             frm.MdiParent = this;
         }
+
+        private void ລາຍງານສນຄາໃນຮານToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmrptProductViewer frm = new frmrptProductViewer();
+            frm.MdiParent = this;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.Show();
+        }
     }
 }
