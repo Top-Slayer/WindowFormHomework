@@ -39,7 +39,7 @@ namespace Learning
             {
                 sqlquery = "where pro_id='" + textBox1.Text + "'";
             }
-            sqlCmd = new SqlCommand("select * from View_Products " + sqlquery, sqlCon);
+            sqlCmd = new SqlCommand("SELECT * FROM View_Products " + sqlquery, sqlCon);
             SqlDataReader sqlDr = sqlCmd.ExecuteReader();
             DataTable dtPT = new DataTable();
             dtPT.Load(sqlDr);
